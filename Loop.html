@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop</title>
+</head>
+<body>
+ <!-- <ul id="main"></ul> -->
+
+ <input id="inp1">
+ <button id="bt" onclick="fun()">Submit</button>
+
+ <table id="print"> 
+ </table>
+
+    
+
+<script>
+
+                                    //  FOR LOOP
+
+    // for( var i = 1 ; i<=10 ; i++){
+
+    //     document.getElementById("main").innerHTML += "<li>" + "Raclez" + "</li>" ;
+    // }
+
+    function fun(){
+
+
+        var i1 = document.getElementById("inp1").value;
+
+    for( var a = 1 ; a<=10 ; a++){
+
+     document.getElementById("print").innerHTML += i1 + "*" + a + "=" + i1*a + "<br>" ;
+
+}
+
+}
+
+
+
+                                    //   WHILE LOOP
+
+    //    var w = 1;
+    //    while(w<=10){
+    //     document.getElementById("print").innerHTML += "Pakistan" + "<br>    " ;
+    //     (w = w + 1)
+    //    }                             
+
+
+
+
+                                    //    DO WHILE LOOP
+
+    // var dw = 1;
+    
+    // do {
+    //     document.getElementById("print").innerHTML += " RACLEZ" + "<br>";
+    //     dw = dw + 1 ;
+    // } while (dw<=10);
+                            
+</script>
+
+
+</body>
+</html>
